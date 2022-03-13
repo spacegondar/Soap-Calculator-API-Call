@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="headers">
+        Dneonline Calculator Api
+    </header>
+
+    <div class="app" id="app" align="center">
+
+        <h3 class="result" align="center">Sonuç</h3>
+
+        <article>
+            <!-- ZEYNEL'e Teşekkürler -->
+            <section>
+                <input type="number" class="intInp" id="intA" placeholder="Sayı Giriniz" required/>
+            </section>
+
+            <section>
+                <input type="number" class="intInp" id="intB" placeholder="Sayı Giriniz" required/>
+            </section>
+
+            <button type="submit" class="btn-op" onclick="appSubmit()">-</button>
+            <button type="submit" class="btn-op" onclick="appSubmit()">+</button>
+            <button type="submit" class="btn-op" onclick="appSubmit()">*</button>
+            <button type="submit" class="btn-op" onclick="appSubmit()">/</button>
+
+        </article>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
